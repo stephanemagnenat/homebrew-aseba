@@ -11,8 +11,8 @@ class Aseba < Formula
   end
   
   depends_on "cmake" => :build
-  depends_on "qt"
-  depends_on "qwt"
+  depends_on "cartr/qt4/qt"
+  depends_on "cartr/qt4/qwt-qt4"
   depends_on "dashel"
   depends_on "enki"
   depends_on "d-bus" => :recommended
