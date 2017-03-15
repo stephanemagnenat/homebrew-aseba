@@ -7,7 +7,7 @@ class Enki < Formula
 
   depends_on "cmake" => :build
   depends_on "cartr/qt4/qt"
-  depends_on "sdl"
+  depends_on "sdl2"
   depends_on :python => :optional
   depends_on "boost" => "with-python"
 
