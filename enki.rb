@@ -2,8 +2,8 @@ require "formula"
 
 class Enki < Formula
   homepage "http://home.gna.org/enki"
-  url "https://github.com/enki-community/enki/archive/2.0-pre.20140520.tar.gz"
-  sha1 "342ca29c8317a22098d6c6834f8d565c30dc46eb"
+  url "https://github.com/enki-community/enki/archive/2.0-pre.20170315.tar.gz"
+  sha256 "ad9fc6e6388d1d89c96588b7010992b27da83bc2c61069d730e99f1b7c1b86d5"
 
   depends_on "cmake" => :build
   depends_on "qt"
