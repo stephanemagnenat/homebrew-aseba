@@ -2,8 +2,8 @@ require "formula"
 
 class Aseba < Formula
   homepage "http://aseba.wikidot.com"
-  url "https://github.com/aseba-community/aseba/archive/1.3.3.tar.gz"
-  sha1 "023ade01c6d859f4e97a90546bc6f5de3adf6ebb"
+  url "https://github.com/aseba-community/aseba/archive/1.5.5.tar.gz"
+  sha256 "ec2f417a96de9deecefcf6ceb61b4227bea14546a79de02dc42e8be9e7aa630a"
   head "https://github.com/aseba-community/aseba.git"
 
   head do
