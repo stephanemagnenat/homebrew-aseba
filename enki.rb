@@ -3,7 +3,7 @@ require "formula"
 class Enki < Formula
   homepage "http://home.gna.org/enki"
   url "https://github.com/enki-community/enki/archive/2.0-pre.20170315.tar.gz"
-  sha256 "f4d25604e754a80d2341e92d6d0e5e33479a66e6285a978c05252fc1b96c8025"
+  sha256 "0872c2b58bd9aa13734887a0433c1c343962e84d88ab1928b5f3ed7e87b1dbe1"
 
   depends_on "cmake" => :build
   depends_on "cartr/qt4/qt"
