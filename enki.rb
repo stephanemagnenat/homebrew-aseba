@@ -6,7 +6,7 @@ class Enki < Formula
   sha256 "f4d25604e754a80d2341e92d6d0e5e33479a66e6285a978c05252fc1b96c8025"
 
   depends_on "cmake" => :build
-  depends_on "qt"
+  depends_on "cartr/qt4/qt"
   depends_on "sdl"
   depends_on :python => :optional
   depends_on "boost" => "with-python"
